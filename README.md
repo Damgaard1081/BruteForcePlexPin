@@ -10,10 +10,10 @@ Experiment to test the security of Plex server and how easy/hard it would be to 
 The conclusion was that there must be some sort of hidden brute force defense mechanism in the pin login system. After an unknown number of failed attempts, the correct pin has the same effect as the wrong pin.
 
 
-BRUTE FORCE PLEX PIN V2 (BFPPv2.py)
-    Using selenium web browser and python to bruteforce the plex server home users pin code.!
+BRUTE FORCE PLEX PIN V2 (BFPPv2.py) Using selenium web browser and python to bruteforce the plex server home users pin code.!
 
 Requirements:
+
     Install python3 and use pip to install libraries needed.
     Pip should be installed automatically with python3 : https://www.python.org/downloads/
 
@@ -26,6 +26,7 @@ Requirements:
     Also make sure your chrome browser is up to date: chrome://settings/safetyCheck -> check now (update)
 
 Usage:
+
     Launch the program!
     Login to your Plex server home user..
     Select the user you want to bruteforce..
